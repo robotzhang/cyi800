@@ -1,0 +1,6 @@
+.cols { float: left; width: 230px; background: none; margin: 0 15px 15px 0; }
+.ideas { padding: 10px; background-color: #FFF; width: 210px; box-shadow: 0pt 1px 3px rgba(34, 25, 25, 0.2); border-radius: 3px; line-height: 21px; color: #555; font-size: 12px; margin-bottom: 15px; /*position: absolute;*/  }
+.ideas .img img { width: 210px; margin-bottom: 10px; }
+.ideas .toolbar { margin-bottom: 5px; padding-bottom: 7px; border-bottom: #ccc 1px dotted; }
+.ideas .toolbar .buy { float: right; color: #55AADD; }
+.ideas .description { text-overflow: ellipsis; word-wrap: normal; }

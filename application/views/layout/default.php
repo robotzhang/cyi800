@@ -9,10 +9,10 @@ $action_next = $this->uri->segment(2);
 <meta name="description" content="<?php echo $layout['description']; ?>" />
 <meta name="keywords" content="<?php echo $layout['keywords']; ?>" />
 <title><?php echo $layout['title']; ?></title>
-<link rel="shortcut icon" href="<?php echo base_url(); ?>/static/images/favicon.ico"/>
-<link rel="stylesheet" href="<?php echo base_url(); ?>/static/stylesheets/reset.css" />
-<link rel="stylesheet" href="<?php echo base_url(); ?>/static/stylesheets/global.css" />
-<script type="text/javascript" src="<?php echo base_url(); ?>/static/javascripts/jquery.js"></script>
+<link rel="shortcut icon" href="<?php echo base_url(); ?>static/images/favicon.ico"/>
+<link rel="stylesheet" href="<?php echo base_url(); ?>static/stylesheets/reset.css" />
+<link rel="stylesheet" href="<?php echo base_url(); ?>static/stylesheets/global.css" />
+<script type="text/javascript" src="<?php echo base_url(); ?>static/javascripts/jquery.js"></script>
 <?php 
     if (!empty($layout['css'])) {
         foreach ($layout['css'] as $css) {
@@ -29,14 +29,13 @@ $action_next = $this->uri->segment(2);
 </head>
 
 <body>
-	<div class="wrapper">
+	<?php $this->load->view('comm/header.php'); ?>
+	<div id="wrapper">
 		<div class="container">
-			<?php $this->load->view('comm/header.php'); ?>
-			<div id="wrapper_body">
-				<?php echo $layout['content']; //内容?>
-			</div>
-			<?php $this->load->view('comm/footer.php'); ?>
+			<?php echo $layout['content']; //内容?>
 		</div>
+		<div class="clear"></div>		
 	</div>
+	<?php $this->load->view('comm/footer.php'); ?>
 </body>
 </html>
