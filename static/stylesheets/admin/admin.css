@@ -1,0 +1,408 @@
+body {
+	font: 12px Tahoma,Verdana,Geneva,Arial,Helvetica,sans-serif;
+}
+
+#header {
+	background:url(../..//images/admin/header_bk.jpg) 0 0 repeat-x;
+	background-color:#4B658B;margin-bottom:15px;
+}
+
+a {
+	color:#444;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#FB8534;
+}
+
+.clear { clear: both; content: "."; display: block; font-size: 0; height: 0; overflow: hidden; visibility: hidden; }
+
+.footer {
+	font-size:12px;
+	text-align:center;
+	margin-top:110px;
+	margin-bottom:60px;
+	height:22px;
+	line-height:22px;
+	color:#999;
+	border-top:#E5E5E5 1px solid;
+	padding-top:15px;
+}
+
+.footer .copyright {
+	display:inline-block;
+	*display:inline;
+	margin-left:50px;
+	margin-right:10px;
+}
+
+.footer a {
+	color:#666666;
+	text-decoration:none;
+	padding: 0 9px 0 9px;
+}
+
+.footer a:hover {
+	color:#777;
+	text-decoration:none;
+}
+
+.margin-none {
+	margin:0;
+}
+
+.border {
+	border:#DADADA 1px solid;
+}
+
+.logo {
+	font-size:14px;
+	color:#666;
+	/*width:155px;
+	height:80px;
+	background:url("../..//images/ucenter/logo.gif") no-repeat scroll 0 0 transparent;*/
+	margin-top:22px;
+	float:left;
+}
+
+a.show_more {
+	color:#088CCE;
+	padding-left:20px;
+	line-height:30px;
+	text-decoration:underline;
+}
+
+.red {
+	color:#ED171F;
+}
+
+a.red {
+	color:#ED171F;
+	text-decoration:none;
+}
+
+a.red:hover {
+	color:#ED171F;
+	text-decoration:underline;
+}
+
+span.red {
+	color:#DE2323;
+}
+
+span.short {
+	width:40px!important;
+}
+
+span.long {
+	width:150px!important;
+}
+
+span.border_r {
+	border-right:#AACCF6 1px solid;
+}
+
+.shadow {
+	box-shadow: 0px 1px 3px rgba(68, 68, 68, .7);
+}
+
+div.space {
+	border-bottom:#E5E5E5 1px solid;margin-top:10px;margin-bottom:10px;
+}
+
+textarea {
+	margin: 0;
+    padding: 5px;
+	color: #555;
+	border: #CCC 1px solid;
+	font-size:12px;
+	width:600px;
+	height:50px;
+}
+
+select,.input {
+	margin: 0;
+    padding: 5px;
+	color: #555;
+	border: #CCC 1px solid;
+	width: 160px;
+}
+
+select {
+	width:auto!important;
+}
+
+.btn {
+	background-color:#4B658B;
+	display:inline-block;
+	zoom:0;
+	color:#FFF;
+	padding:0px 10px;
+	border-bottom:#999 1px solid;
+	border-right:#999 1px solid;
+	cursor:pointer;
+	font-size:12px;
+	*display:inline;
+	zoom:1;
+}
+
+ul {
+	list-style:none;
+	line-height:25px;
+}
+
+ul.form li {
+	margin-bottom:10px;
+	font-size:12px;
+	clear:both;
+}
+
+.label {
+    float: left;
+    font-weight: bold;
+    margin-right: 12px;
+    overflow: hidden;
+    text-align: right;
+    width: 100px;
+	font-size:12px;
+	color:#666;
+}
+
+.space_15 {
+	height:15px;
+	font-size:1px;
+	padding:0;
+	margin:0;
+}
+
+.text_center {
+	text-align:center;
+}
+
+.title_big {
+	font-size:24px;
+	color:#000;
+	font-weight:bold;
+}
+
+.title_small {
+	font-size:18px;
+	color:#FB8534;
+	font-weight:bold;
+}
+
+.error {
+	line-height:16px!important;
+	background:url(../..//images/admin/icon/error.png) 2px 2px no-repeat;
+	border:#DD3C10 1px solid;
+	background-color:#FFEBE8;
+	color:#DD3C10;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-right:5px;
+	padding-left:21px;
+	height:auto!important;
+	font-size:12px;
+}
+
+h2 {
+	color: #000000;
+    font-size: 24px;
+    line-height: 24px;
+	padding-bottom: 10px;
+}
+
+h1 {
+	color: #FF2600;
+    font-family: "微软雅黑","黑体","宋体";
+    font-size: 52px;
+    font-weight: normal;
+    height: 52px;
+    line-height: 52px;
+    padding-bottom: 10px;
+}
+
+.menu {
+	padding:5px;
+	line-height:25px;
+	font-size:14px;
+	background-color:#EEF6F7;
+	border:#FFFFFF 1px solid;
+}
+
+.menu li {
+	padding-left:20px;
+	padding-right:25px;
+	border-bottom:#D6EFFF 1px solid;
+	border-top:#FFFFFF 1px solid;
+	margin:0;
+	line-height:35px;
+}
+
+.menu li div{
+	background-position:0 center!important;
+}
+
+.box_shadow {
+	background:url('../..//images/admin/vertical_line.png') repeat-y scroll right 0pt transparent;
+	padding-right:9px;
+}
+
+.table li {
+	line-height:28px;
+	padding-left:5px;
+	padding-right:5px;
+	border-bottom:#DADADA 1px dotted;
+	font-size:12px;
+}
+
+.table .head{
+	background-color:#4B658B;
+	background:url(../..//images/admin/bk_grid_head.gif) 0 0 repeat-x;
+	font-weight:bold;
+	border-top:#AACCF6 1px solid;;
+}
+
+.table .head td {
+	height:22px!important;
+	line-height:22px!important;
+	font-weight:bold!important;
+}
+
+.table li .inline_block {
+	display:inline-block;
+	zoom:0;
+	width:70px;
+}
+
+table.form td {
+	line-height:22px;
+	padding:5px 5px;
+	border:#EDEDED 1px solid;
+}
+
+table.form select, input {
+    border: 1px solid #CCCCCC;
+    color: #555555;
+    margin: 0;
+    padding: 5px;
+    width: 160px;
+}
+
+.table span.id {
+	width:60px;
+}
+
+.table span.date {
+	width:150px;
+}
+
+.table span.oper {
+	width:40px;
+}
+
+.table td {
+	border-bottom:#CCCCCC 1px dotted;
+	line-height:35px;
+	height:35px;
+	padding:0 10px;
+	white-space:nowrap;
+	overflow:hidden;
+	color:#444;
+}
+
+.table td a {
+	color:#000;
+}
+
+.table td a:hover {
+	text-decoration:underline;
+}
+
+.table .head td {
+	border-right:#AACCF6 1px solid;
+	border-bottom:none!important;
+	/*font-weight:bold;*/
+}
+
+div.left {
+	float:left;
+}
+
+div.right {
+	float:right;
+}
+
+/**tab**/
+.tab {
+	color:#444;
+}
+
+.tab li {
+	float:left;
+	display:inline;
+	width:104px;
+	text-align:center;
+	height:37px!important;
+	line-height:37px!important;
+	cursor:pointer;
+	color:#656565;
+	border:none!important;
+}
+
+.tab .tab_select {
+	color:#FFF;
+	background:url(../..//images/admin/img_style.gif) 0 0 no-repeat;
+}
+
+/***----------------系统分页----------------**/
+.pages {
+	background-color:#D6E3F2;
+	padding-left:5px;
+}
+
+.pages a {
+	padding:0px 3px 0px 3px!important;
+	margin-left:5px;
+}
+
+.pages a.selected {
+	border-bottom:#FC7174 2px solid;
+	font-weight:bold;
+}
+
+.pages a:hover {
+	/*border:#444 1px solid;*/
+	border-bottom:#FC7174 2px solid;
+}
+
+.pages li {
+	height:22px;
+	line-height:22px;
+	float:left;
+}
+
+.notes li {
+	color:#666;
+	line-height:18px;
+}
+
+.odd {
+	background-color:#F8F9FA;
+}
+
+.field_error {
+	border:#FFB9B9 1px solid!important;
+	background-color:#FCFCE8;
+}
+
+input.upload {
+	width:auto!important;
+}
+
+.ke-container td {
+	padding:0!important;
+	border:none!important;
+	vertical-align:middle!important;
+}

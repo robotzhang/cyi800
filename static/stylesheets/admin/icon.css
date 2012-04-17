@@ -1,0 +1,82 @@
+.icon {
+	padding-left:20px;
+	display:inline-block;
+	zoom:0;
+	background-position:0 center!important;
+}
+
+.btn_icon {
+	width:16px;
+	padding-left:0!important;
+	display:inline-block;
+	zoom:0;
+	cursor:pointer;
+	background-position:0 center!important;
+	text-decoration:none!important;
+}
+
+.handle {
+	cursor:pointer;
+}
+
+.hline {
+	width:3px!important;
+	padding:0;
+	background:url("../..//images/admin/admin/icon/space.gif") center center no-repeat;
+}
+
+.return {
+	background:url("../..//images/admin/icon/arrow-return.png") 3px center no-repeat;
+}
+
+.close {
+	background:url("../..//images/admin/icon/close.png") 3px center no-repeat;
+}
+
+.money_euro {
+	background:url("../..//images/admin/icon/money_euro.png") 3px center no-repeat;
+}
+
+.award_star_gold_1 {
+	background:url("../..//images/admin/icon/award_star_gold_1.png") 3px center no-repeat;
+}
+
+.application_double {
+	background:url("../..//images/admin/icon/application_double.png") 3px center no-repeat;
+}
+
+.edit {
+	background:url("../..//images/admin/icon/edit.gif") 0px 0px no-repeat;
+}
+
+.pencil {
+	background:url("../..//images/admin/icon/pencil.png") 0px 0px no-repeat;
+}
+
+.delete {
+	background:url("../..//images/admin/icon/delete.png") 0px 0px no-repeat;
+}
+
+.add {
+	background:url("../..//images/admin/icon/add.gif") 0px 0px no-repeat;
+}
+
+.rubbish {
+	background:url("../..//images/admin/icon/rubbish.png") 0px 0px no-repeat;
+}
+
+.upload {
+	background:url("../..//images/admin/icon/16upload.gif") 0px 0px no-repeat;
+}
+
+.info {
+	background:url("../..//images/admin/icon/info.png") 0px 0px no-repeat;
+}
+
+.logout {
+	background:url("../..//images/admin/icon/key_delete.png") 0px 0px no-repeat;
+}
+
+.page_copy {
+	background:url("../..//images/admin/icon/page_copy.png") 0px 0px no-repeat;
+}
