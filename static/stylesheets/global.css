@@ -6,7 +6,7 @@ a { text-decoration: none; color: #333; }
 a:hover { text-decoration: underline; }
 
 /**头部**/
-#header { line-height: 62px; font-size: 16px; background: url(http://img.xiami.com/res/v3/img/top.jpg) repeat-x; border-bottom: #ccc 2px solid; }
+#header { line-height: 62px; font-size: 16px; background: url(../images/top.jpg) repeat-x; border-bottom: #ccc 2px solid; }
 #header .logo { float: left; }
 #header .logo a { background: url(../images/logo.png); display: block; width: 173px; height: 62px; text-indent: -999px; overflow: hidden; }
 #header .nav { /*background-color: #33CCFF;*/ height:38px; line-height: 38px; color: #FFF; margin: 12px 0; }
